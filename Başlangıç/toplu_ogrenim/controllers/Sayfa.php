@@ -1,6 +1,6 @@
 <?php
 /*
-En basit controller view bağlantısı
+Örnek 1 : En basit controller view bağlantısı
 */
 class Sayfa extends CI_Controller {
   public function index() {
@@ -10,7 +10,7 @@ class Sayfa extends CI_Controller {
 }
 
 /*
-En basit haliyle controllerdan viewe değişken aktarımı yada bilgi aktarımı
+Örnek 2 : En basit haliyle controllerdan viewe değişken aktarımı yada bilgi aktarımı
 */
 class Sayfa extends CI_Controller {
   public function index() {
@@ -22,7 +22,7 @@ class Sayfa extends CI_Controller {
 }
 
 /*
-En basit haliyle dizi içinde bilgi gönderme
+Örnek 3 : En basit haliyle dizi içinde bilgi gönderme
 */
 class Sayfa extends CI_Controller {
   public function index() {
@@ -38,7 +38,7 @@ class Sayfa extends CI_Controller {
 }
 
 /*
-En basit haliyle foreachle alınacak dizi gönderme
+Örnek 4 : En basit haliyle foreachle alınacak dizi gönderme
 */
 class Sayfa extends CI_Controller {
   public function index() {
